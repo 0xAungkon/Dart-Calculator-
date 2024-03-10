@@ -16,7 +16,20 @@ int asking_number(String prompt) {
 }
 
 
-int calculate(int )
+int calculate(int number1,int number2,int oparator){
+    if(oparator==1){
+        return number1+number2;
+    }
+    else if(oparator==2){
+        return number1*number2;
+    }
+    else if(oparator==3){
+        return number1/number2;
+    }
+    else if(oparator==4){
+        return number1-number2;
+    }
+}
 
 
 void main() async {
