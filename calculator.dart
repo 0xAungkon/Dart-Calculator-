@@ -35,7 +35,8 @@ int calculate(int number1,int number2,int oparator){
 
 int asking_oparator(){
     print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
-    
+    int? oparator=asking_number('What You Want To Do: ');
+    if(oparator)
 }
 
 
