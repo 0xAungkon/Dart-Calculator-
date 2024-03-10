@@ -2,8 +2,6 @@ import 'dart:io';
 
 
 void main() async {
-    
-
     while(true){
         stdout.write('Enter a number: ');
         String? number1=stdin.readLineSync();
