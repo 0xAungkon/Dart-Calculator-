@@ -1,13 +1,15 @@
 import 'dart:io';
 
+int asking_number(int number) {
+  return a + b;
+}
+
+
 
 void main() async {
     int? oparator_int;
     int? number2_int;
     int? number1_int;
-
-
-
     while(true){
         stdout.write('Enter a number: ');
         String? number1=stdin.readLineSync();
