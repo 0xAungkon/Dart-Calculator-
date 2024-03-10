@@ -22,10 +22,11 @@ void main() async {
         try{
             int oparator_int=int.parse(oparator_ !);
             if(oparator_int>0 && oparator_int<5){
-                
+                break;
             }
             else{
-print("it's not a number, Try Again.");
+                print("Invalid Choise.");
+
             }
         }
         catch (FormatException) {   
@@ -48,6 +49,9 @@ print("it's not a number, Try Again.");
             continue;
         }
     }
+
+
+    print();
     
   
 }
