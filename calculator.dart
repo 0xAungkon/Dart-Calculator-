@@ -29,6 +29,7 @@ int calculate(int number1,int number2,int oparator){
     else if(oparator==4){
         return number1-number2;
     }
+    return 0;
 }
 
 
