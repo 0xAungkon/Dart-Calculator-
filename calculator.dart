@@ -1,8 +1,8 @@
 import 'dart:io';
 
-int asking_number(String ) {
+int asking_number(String prompt) {
     while(true){
-        stdout.write('Enter a number: ');
+        stdout.write(prompt);
         String? number2=stdin.readLineSync();
         try{
             int number2_int=int.parse(number2 !);
@@ -18,12 +18,11 @@ int asking_number(String ) {
 
 
 void main() async {
-    int? oparator_int;
-    int? number2_int;
-    int? number1_int;
     
-    print(asking_number());
-
+    int? number2_int=asking_number('Enter 2nd number: ');
+    int? oparator_int;
+    int? number1_int=asking_number('Enter a number: ');
+    
     // while(true){
     //     print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
     //     stdout.write('What You Want To Do? ');
