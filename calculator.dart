@@ -14,7 +14,7 @@ void main() async {
         }
     }
 
-    print('Calcualation: \n 1.Sum \n 2.Multiplication \n 3.Divider \n ');
+    print('Calcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
 
 
     while(true){
