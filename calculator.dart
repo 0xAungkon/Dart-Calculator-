@@ -20,9 +20,12 @@ void main() async {
         stdout.write('What You Want To Do? ');
         String? oparator_=stdin.readLineSync();
         try{
-            int number1_int=int.parse(number1 !);
-            if(number1_int){
-
+            int oparator_int=int.parse(oparator_ !);
+            if(oparator_int>0 && oparator_int<5){
+                
+            }
+            else{
+print("it's not a number, Try Again.");
             }
         }
         catch (FormatException) {   
