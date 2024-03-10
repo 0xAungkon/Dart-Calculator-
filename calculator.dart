@@ -24,7 +24,7 @@ int calculate(int number1,int number2,int oparator){
         return number1*number2;
     }
     else if(oparator==3){
-        return number1/number2;
+        return (number1/number2).toInt();
     }
     else if(oparator==4){
         return number1-number2;
@@ -39,7 +39,7 @@ void main() async {
     int? oparator_int=asking_number('What You Want To Do: ');
     int? number2_int=asking_number('Enter 2nd number: ');
     
-    print(calculate(number1_int,number2_int,oparator_int))
+    print(calculate(number1_int,number2_int,oparator_int));
 
 
 }
