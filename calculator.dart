@@ -14,7 +14,8 @@ void main() async {
         }
     }
 
-    print('')
+    print('Calcualation: \n 1. Sum \n 1. Sum');
+
 
     while(true){
         stdout.write('Enter a 2nd number: ');
