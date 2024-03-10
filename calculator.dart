@@ -2,6 +2,12 @@ import 'dart:io';
 
 
 void main() async {
+    int oparator_int=0;
+    int number2_int=0;
+    int number1_intt=0;
+
+
+
     while(true){
         stdout.write('Enter a number: ');
         String? number1=stdin.readLineSync();
@@ -52,6 +58,4 @@ void main() async {
 
 
     print(oparator_int);
-    
-  
 }
