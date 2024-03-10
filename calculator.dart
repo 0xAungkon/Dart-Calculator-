@@ -4,7 +4,7 @@ import 'dart:io';
 void main() async {
     int oparator_int=0;
     int number2_int=0;
-    int number1_intt=0;
+    int number1_int=0;
 
 
 
@@ -13,6 +13,7 @@ void main() async {
         String? number1=stdin.readLineSync();
         try{
             int number1_int=int.parse(number1 !);
+            print(number1_int);
             break;
         }
         catch (FormatException) {   
@@ -57,5 +58,5 @@ void main() async {
     }
 
 
-    print(oparator_int);
+    print(number1_int);
 }
