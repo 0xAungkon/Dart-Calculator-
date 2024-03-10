@@ -51,7 +51,7 @@ void main() async {
     }
 
 
-    print();
+    print(oparator_int);
     
   
 }
