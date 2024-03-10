@@ -9,7 +9,7 @@ void main() async {
         String? number1=stdin.readLineSync();
         break;
         try{
-            int number=int.parse(number1);
+            int number1=int.parse(number1);
         }
         catch (FormatException) {   
             print("it's not a number, Try Again.");
