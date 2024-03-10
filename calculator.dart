@@ -34,7 +34,6 @@ int calculate(int number1,int number2,int oparator){
 
 
 int asking_oparator(){
-    print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
     int? oparator=asking_number('What You Want To Do: ');
     if(oparator>0 && oparator<5){
         return oparator;
@@ -49,7 +48,7 @@ int asking_oparator(){
 void main() async {
     
     int? number1_int=asking_number('Enter a number: ');
-    
+    print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
     int? oparator_int=asking_oparator();
     int? number2_int=asking_number('Enter 2nd number: ');
     
