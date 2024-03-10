@@ -19,6 +19,9 @@ void main() async {
         print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
         stdout.write('What You Want To Do? ');
         String? oparator_=stdin.readLineSync();
+        if(){
+            
+        }
     }
 
 
