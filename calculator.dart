@@ -5,7 +5,7 @@ void main() async {
     while(true){
         stdout.write('Enter a number: ');
         String? number1=stdin.readLineSync();
-        break;
+        
         try{
             int number1=int.parse(number1);
         }
