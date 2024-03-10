@@ -2,9 +2,9 @@ import 'dart:io';
 
 
 void main() async {
-    int oparator_int?;
-    int number2_int=0;
-    int number1_int=0;
+    int? oparator_int;
+    int? number2_int;
+    int? number1_int;
 
 
 
