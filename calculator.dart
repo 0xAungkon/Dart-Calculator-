@@ -10,19 +10,21 @@ void main() async {
         }
         catch (FormatException) {   
             print("it's not a number, Try Again.");
-            // continue
+            continue
         }
     }
 
+    print('')
+
     while(true){
-        stdout.write('Enter a number: ');
-        String? number1=stdin.readLineSync();
+        stdout.write('Enter a 2nd number: ');
+        String? number2=stdin.readLineSync();
         try{
-            int number1_int=int.parse(number1 !);
+            int number2_int=int.parse(number2 !);
         }
         catch (FormatException) {   
             print("it's not a number, Try Again.");
-            // continue
+            continue
         }
     }
     
