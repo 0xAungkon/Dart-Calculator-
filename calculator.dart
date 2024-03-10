@@ -13,7 +13,6 @@ void main() async {
         String? number1=stdin.readLineSync();
         try{
             int number1_int=int.parse(number1 !);
-            print(number1_int);
             break;
         }
         catch (FormatException) {   
@@ -21,6 +20,8 @@ void main() async {
             continue;
         }
     }
+    print(number1_int);
+
 
     while(true){
         print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
@@ -58,5 +59,4 @@ void main() async {
     }
 
 
-    print(number1_int);
 }
