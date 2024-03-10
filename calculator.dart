@@ -1,7 +1,17 @@
 import 'dart:io';
 
-int asking_number(int number) {
-  return a + b;
+int asking_number() {
+    while(true){
+        String? number2=stdin.readLineSync();
+        try{
+            int number2_int=int.parse(number2 !);
+            return number2_int;
+        }
+        catch (FormatException) {   
+            print("it's not a number, Try Again.");
+            continue;
+        }
+    }
 }
 
 
@@ -10,19 +20,7 @@ void main() async {
     int? oparator_int;
     int? number2_int;
     int? number1_int;
-    while(true){
-        stdout.write('Enter a number: ');
-        String? number1=stdin.readLineSync();
-        try{
-            int number1_int=int.parse(number1 !);
-            break;
-        }
-        catch (FormatException) {   
-            print("it's not a number, Try Again.");
-            continue;
-        }
-    }
-    print(number1_int);
+    stdout.write('Enter a number: ');
 
 
     while(true){
