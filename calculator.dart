@@ -16,14 +16,17 @@ int asking_number(String prompt) {
 }
 
 
+int calculate(int )
+
 
 void main() async {
     
-    int? number2_int=asking_number('Enter 2nd number: ');
+    int? number1_int=asking_number('Enter a number: ');
     print('\nCalcualation: \n 1.Addition \n 2.Multiplication \n 3.Divider \n 4.Subtraction');
     int? oparator_int=asking_number('What You Want To Do: ');
-    int? number1_int=asking_number('Enter a number: ');
+    int? number2_int=asking_number('Enter 2nd number: ');
     
+    print(calculate(number1_int,number2_int,oparator_int))
 
 
 }
